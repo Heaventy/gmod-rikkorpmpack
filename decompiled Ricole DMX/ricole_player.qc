@@ -225,8 +225,8 @@ $ikchain "lhand" "ValveBiped.Bip01_L_Hand" knee 0.707 0.707 0
 $ikchain "rfoot" "ValveBiped.Bip01_R_Foot" knee 0.707 -0.707 0
 $ikchain "lfoot" "ValveBiped.Bip01_L_Foot" knee 0.707 -0.707 0
 
-$ikautoplaylock "rfoot" 0.2 0.1
-$ikautoplaylock "lfoot" 0.2 0.1
+$ikautoplaylock "rfoot" 0.1 0.0
+$ikautoplaylock "lfoot" 0.1 0.0
 
 $sequence reference "anims\reference" fps 1
 
@@ -649,7 +649,7 @@ $animation "drive_jeep_center" "anims\drive_jeep_center.smd" {
 $sequence proportions a_proportions predelta autoplay
 
 $Sequence "ragdoll" {
-	"anims\a_proportions"
+	"anims\reference"
 	activity "ACT_DIERAGDOLL" 1
 	fadein 0.2
 	fadeout 0.2
