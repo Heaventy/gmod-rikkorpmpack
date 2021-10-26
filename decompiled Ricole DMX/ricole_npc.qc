@@ -272,7 +272,7 @@ $collisionjoints "physics.smd"
 
 	$jointconstrain "ValveBiped.Bip01_L_Forearm" x limit -45 45 0
 	$jointconstrain "ValveBiped.Bip01_L_Forearm" y limit -45 45 0
-	$jointconstrain "ValveBiped.Bip01_L_Forearm" z limit -90 -90 0
+	$jointconstrain "ValveBiped.Bip01_L_Forearm" z limit -90 90 0
 
 	$jointconstrain "ValveBiped.Bip01_L_Hand" x limit -45 45 0
 	$jointconstrain "ValveBiped.Bip01_L_Hand" y limit -45 45 0
@@ -290,25 +290,25 @@ $collisionjoints "physics.smd"
 	$jointconstrain "ValveBiped.Bip01_R_Hand" y limit -45 45 0
 	$jointconstrain "ValveBiped.Bip01_R_Hand" z limit -45 45 0
 	
-	$jointconstrain "ValveBiped.Bip01_L_Thigh" x limit -12 12 0
-	$jointconstrain "ValveBiped.Bip01_L_Thigh" y limit -73 6 0
-	$jointconstrain "ValveBiped.Bip01_L_Thigh" z limit -93 30 0
+	$jointconstrain "ValveBiped.Bip01_L_Thigh" x limit -10 10 0
+	$jointconstrain "ValveBiped.Bip01_L_Thigh" y limit -75 10 0
+	$jointconstrain "ValveBiped.Bip01_L_Thigh" z limit -90 30 0
 
 	$jointconstrain "ValveBiped.Bip01_L_Calf" x limit 0 0 0
 	$jointconstrain "ValveBiped.Bip01_L_Calf" y limit 0 0 0
-	$jointconstrain "ValveBiped.Bip01_L_Calf" z limit -8 126 0
+	$jointconstrain "ValveBiped.Bip01_L_Calf" z limit -10 120 0
 
 	$jointconstrain "ValveBiped.Bip01_L_Foot" x limit 0 0 0
 	$jointconstrain "ValveBiped.Bip01_L_Foot" y limit 0 0 0
 	$jointconstrain "ValveBiped.Bip01_L_Foot" z limit 0 0 0
 	
-	$jointconstrain "ValveBiped.Bip01_R_Thigh" x limit -12 12 0
-	$jointconstrain "ValveBiped.Bip01_R_Thigh" y limit -8 75 0
-	$jointconstrain "ValveBiped.Bip01_R_Thigh" z limit -97 32 0
+	$jointconstrain "ValveBiped.Bip01_R_Thigh" x limit -10 10 0
+	$jointconstrain "ValveBiped.Bip01_R_Thigh" y limit -75 10 0
+	$jointconstrain "ValveBiped.Bip01_R_Thigh" z limit -90 30 0
 
 	$jointconstrain "ValveBiped.Bip01_R_Calf" x limit 0 0 0
 	$jointconstrain "ValveBiped.Bip01_R_Calf" y limit 0 0 0
-	$jointconstrain "ValveBiped.Bip01_R_Calf" z limit -12 126 0
+	$jointconstrain "ValveBiped.Bip01_R_Calf" z limit -10 120 0
 
 	$jointconstrain "ValveBiped.Bip01_R_Foot" x limit 0 0 0
 	$jointconstrain "ValveBiped.Bip01_R_Foot" y limit 0 0 0
